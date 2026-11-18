@@ -20,7 +20,10 @@ This lab consolidates the useful themes from earlier lectures, seminars and exer
 4. [Files and serialization / Файлы и сериализация](docs/04-files-and-serialization.md)
 5. [Errors and object-oriented design / Ошибки и ООП](docs/05-errors-and-oop.md)
 6. [Testing and code quality / Тестирование и качество](docs/06-testing-and-quality.md)
-7. [Practice kata / Практическая задача](exercises/README.md)
+7. [Analytics automation / Автоматизация аналитики](docs/07-reporting-automation.md)
+8. [Presentations and refresh / Презентации и обновление](docs/08-presentation-and-refresh-pipeline.md)
+9. [Synthetic CSV example / Синтетическая выгрузка](examples/synthetic_summary.py)
+10. [Practice kata / Практическая задача](exercises/README.md)
 
 ## Quick start / Быстрый старт
 
@@ -58,6 +61,14 @@ python -m pytest
 - [PEP 257 — Docstrings](https://peps.python.org/pep-0257/)
 - [Python Packaging User Guide](https://packaging.python.org/)
 - [pytest documentation](https://docs.pytest.org/en/stable/)
+
+## Real-world transfer / Где это применимо
+
+A version-controlled, read-only reporting workflow can combine SQL exports, Python validation, Excel/chart generation, presentation review and documented QA. The new example is **fictional and independent of any employer workflow**; it is not a production integration.
+
+Связь с практикой: выгрузка → контроль структуры и totals → Python → отчёт или презентация → QA → Git. Все примеры и значения вымышленные.
+
+[Linux + automation](https://github.com/KonstantinOreshnikov/linux-testing-python) · [Git workflows](https://github.com/KonstantinOreshnikov/git-instruction-workshop) · [Quality Engineering](https://github.com/KonstantinOreshnikov/web-testing-page-object)
 
 ## Legacy materials / Исторические материалы
 
