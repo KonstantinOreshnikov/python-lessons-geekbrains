@@ -34,7 +34,7 @@ if errorlevel 1 exit /b 1
 echo Synthetic reporting step passed.
 ```
 
-The example above runs solely against committed fake CSV data. The analogous Linux workflow is in the [Linux automation guide](https://github.com/KonstantinOreshnikov/linux-testing-python/blob/main/docs/07-reporting-automation-sandbox.md).
+The example above runs solely against committed fake CSV data. The analogous Linux workflow is in the [Linux automation guide](https://github.com/KonstantinOreshnikov/linux-testing-python).
 
 ## QA checklist
 
